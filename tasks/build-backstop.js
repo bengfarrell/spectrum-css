@@ -27,7 +27,7 @@ function getValues(obj, key) {
     if (!obj.hasOwnProperty(i)) continue;
     if (typeof obj[i] == 'object') {
       objects = objects.concat(getValues(obj[i], key));
-    } 
+    }
     else if (i == key) {
       objects.push(obj[i]);
     }
@@ -51,11 +51,11 @@ gulp.task('build-backstop:generate-backstop-docs', function() {
       for(var i=0;i<argv.component.length;i++) {
         componentList.push('docs/**/' + argv.component[i] + '/*.yml');
       }
-    } 
+    }
     else {
       componentList.push('docs/**/' + argv.component + '/*.yml');
     }
-  } 
+  }
   else {
     componentList = ['docs/**/*.yml'];
   }
@@ -83,9 +83,9 @@ gulp.task('build-backstop:generate-backstop-docs', function() {
 gulp.task('build-backstop:inject-backstop-docs', function() {
   var prependDocHtml = fs.readFileSync(path.resolve(__dirname, '../backstop_data/backstop_template/index.html'), 'utf8');
 
-  // backstopjs runs the docs website off of file uri so the requests to the 
+  // backstopjs runs the docs website off of file uri so the requests to the
   // svg files will create errors which will then keep chrome processes running
-  // to get around this and allow the svg icons to work, just conditionally inject 
+  // to get around this and allow the svg icons to work, just conditionally inject
   // the correct svg and embed it in the head of the index.html
   var spectrumCssIconsStore = fs.readFileSync(path.resolve(__dirname, '../dist/icons/spectrum-css-icons.svg'), 'utf8');
 
@@ -114,11 +114,29 @@ gulp.task('build-backstop:inject-backstop-docs', function() {
     .pipe(gulp.dest('./dist/backstop_docs_test'));
 });
 
+
+gulp.task('build-backstop:copydocs-to-webcomponents', function() {
+  return gulp.src('./backstop_data/build_data/current_components/**/*.html')
+    .pipe(gulp.dest('webcomponents/htmldocs'));
+});
+
+gulp.task('build-backstop:copyimgs-to-webcomponents', function() {
+  return gulp.src('./topdoc/resources/img/*')
+    .pipe(gulp.dest('webcomponents/img'));
+});
+
+gulp.task('build-backstop:copydocscss-to-webcomponents', function() {
+  return gulp.src('./topdoc/resources/css/*')
+    .pipe(gulp.dest('webcomponents/css'));
+});
+
+
 gulp.task('build-backstop:generate-scenarios', function() {
   return gulp.src('./backstop_data/build_data/current_components/**/*.json')
     .pipe(insert.transform(function(data, file) {
       // send down file path so we can use it to tell the backstop scenario where the individual doc file is
       var theData = JSON.parse(data);
+      theData.component = file.relative.split('/')[0];
       theData.relative = file.relative.split('.json')[0] + '.html';
       return JSON.stringify(theData);
     }))
@@ -130,6 +148,7 @@ gulp.task('build-backstop:generate-scenarios', function() {
       asyncCaptureLimit: 1,
       edit: function(parsedJSON) {
         return {
+          'component': parsedJSON.component,
           'label' : parsedJSON.name,
           'url': './dist/backstop_docs_test/' + parsedJSON.relative,
           'readySelector' : '.wf-active',
@@ -140,13 +159,17 @@ gulp.task('build-backstop:generate-scenarios', function() {
         };
       }
     }))
-    .pipe(gulp.dest('./backstop_data/build_data')); 
+    .pipe(gulp.dest('./webcomponents/htmldocs'))
+    .pipe(gulp.dest('./backstop_data/build_data'));
 });
 
 gulp.task('build-backstop',
   gulp.series(
     'build-backstop:generate-backstop-docs',
     'build-backstop:inject-backstop-docs',
+    'build-backstop:copydocs-to-webcomponents',
+    'build-backstop:copyimgs-to-webcomponents',
+    'build-backstop:copydocscss-to-webcomponents',
     'build-backstop:generate-scenarios'
   )
 );

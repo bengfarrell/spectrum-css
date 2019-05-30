@@ -53,6 +53,13 @@ gulp.task('build-docs:copy-site-resources', function() {
     .pipe(gulp.dest('dist/docs'));
 });
 
+gulp.task('build-docs:copy-webcomponents-docs', function() {
+  return gulp.src([
+    'webcomponents/**'
+  ])
+    .pipe(gulp.dest('dist/wc-docs'));
+});
+
 gulp.task('build-docs:copy-prism-resources', function() {
   return gulp.src([
     'node_modules/prismjs/themes/prism.css',
