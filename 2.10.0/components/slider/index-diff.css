@@ -1,10 +1,10 @@
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-Slider,
 .spectrum--large .spectrum-Dial {
   min-height: 40px;
   min-width: 160px;
 }
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-Slider-controls,
 .spectrum--large .spectrum-Dial-controls {
   width: calc(100% - 20px);

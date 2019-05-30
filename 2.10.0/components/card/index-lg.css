@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.9.0 */
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
+/* generated from dna-version: 5.13.0 */
 /* topdoc
 {{ card/card.yml }}
 */
@@ -220,7 +220,7 @@
     height: 15px;
   }
 .spectrum-Card--small .spectrum-Card-title {
-    font-size: 15px;
+    font-size: 17px;
   }
 .spectrum-Card--gallery {
   min-width: 0;

@@ -1,11 +1,11 @@
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-Card {
   min-width: 300px;
 
   border: 1px solid transparent;
   border-radius: 5px;
 }
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-Card-actions {
   right: 13px;
   top: 13px;
@@ -99,5 +99,5 @@
     height: 15px;
   }
 .spectrum--large .spectrum-Card--small .spectrum-Card-title {
-    font-size: 15px;
+    font-size: 17px;
   }

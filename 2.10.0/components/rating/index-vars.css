@@ -50,14 +50,14 @@
   background-repeat: no-repeat;
   width: var(--spectrum-rating-icon-width, var(--spectrum-global-dimension-size-300));
   height: var(--spectrum-icon-star-height, var(--spectrum-global-dimension-size-225));
-  padding: var(--spectrum-rating-icon-padding-y, var(--spectrum-global-dimension-size-75)) 0;
+  padding: var(--spectrum-rating-icon-padding-y, var(--spectrum-global-dimension-size-85)) 0;
 }
 .spectrum-Rating-icon.is-currentValue:after {
       border-radius: var(--spectrum-rating-indicator-border-radius, 2px);
       content: '';
       height: var(--spectrum-rating-indicator-height, 2px);
       position: absolute;
-      bottom: var(--spectrum-rating-indicator-offset, 1px);
+      bottom: var(--spectrum-rating-indicator-offset, 2px);
       left: calc((var(--spectrum-rating-icon-width, var(--spectrum-global-dimension-size-300)) - var(--spectrum-rating-indicator-width, var(--spectrum-global-dimension-size-200))) / 2);
       right: calc((var(--spectrum-rating-icon-width, var(--spectrum-global-dimension-size-300)) - var(--spectrum-rating-indicator-width, var(--spectrum-global-dimension-size-200))) / 2);
     }

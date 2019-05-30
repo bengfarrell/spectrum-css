@@ -19,11 +19,11 @@
   /* Prevent tap highlights */
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--light .spectrum-Body1 {
             color: rgb(75, 75, 75);
           }
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--light .spectrum-Body2 {
             color: rgb(75, 75, 75);
           }
@@ -996,9 +996,9 @@
       color: rgb(44, 44, 44);
     }
 .spectrum--light .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink.focus-ring {
-      color: rgb(13, 102, 208);
+      color: rgb(44, 44, 44);
       outline: 0;
-      border-bottom: 2px solid rgb(13, 102, 208);
+      border-bottom: 2px solid rgb(44, 44, 44);
     }
 .spectrum--light .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink:active {
       color: rgb(44, 44, 44);

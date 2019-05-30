@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.9.0 */
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
+/* generated from dna-version: 5.13.0 */
 /* A solid star */
 .spectrum-Rating:hover .spectrum-Rating-icon .spectrum-Rating-starActive,
 .spectrum-Rating-icon.is-selected .spectrum-Rating-starActive {
@@ -52,14 +52,14 @@
   background-repeat: no-repeat;
   width: 24px;
   height: 18px;
-  padding: 6px 0;
+  padding: 7px 0;
 }
 .spectrum-Rating-icon.is-currentValue:after {
       border-radius: 2px;
       content: '';
       height: 2px;
       position: absolute;
-      bottom: 1px;
+      bottom: 2px;
       left: 4px;
       right: 4px;
     }

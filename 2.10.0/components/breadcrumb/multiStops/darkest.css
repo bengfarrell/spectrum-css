@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.9.0 */
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
+/* generated from dna-version: 5.13.0 */
 /* Temporary skin variables that need to be moved into origins */
 :root {
   /* Icon Button*/
@@ -36,9 +36,9 @@
       color: rgb(239, 239, 239);
     }
 .spectrum--darkest .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink.focus-ring {
-      color: rgb(55, 142, 240);
+      color: rgb(239, 239, 239);
       outline: 0;
-      border-bottom: 2px solid rgb(55, 142, 240);
+      border-bottom: 2px solid rgb(239, 239, 239);
     }
 .spectrum--darkest .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink:active {
       color: rgb(239, 239, 239);

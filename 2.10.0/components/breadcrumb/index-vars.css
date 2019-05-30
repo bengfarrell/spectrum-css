@@ -11,7 +11,7 @@
   }
 .spectrum-Breadcrumbs-itemSeparator {
   position: absolute;
-  top: calc(50% - var(--spectrum-breadcrumb-ui-icon-height, var(--spectrum-global-dimension-size-100)) / 2 - 1px);
+  top: calc(50% - var(--spectrum-breadcrumb-ui-icon-height, var(--spectrum-global-dimension-size-100)) / 2 + 1px);
   right: calc(var(--spectrum-breadcrumb-margin, 32px) / -2 - var(--spectrum-breadcrumb-ui-icon-width, var(--spectrum-global-dimension-size-75)) / 2);
 
   width: var(--spectrum-breadcrumb-ui-icon-width, var(--spectrum-global-dimension-size-75));
@@ -29,8 +29,8 @@
 
   margin-right: var(--spectrum-breadcrumb-margin, 32px);
 
-  font-size: var(--spectrum-breadcrumb-text-size, 16px);
-  font-weight: var(--spectrum-breadcrumb-text-font-weight, 300);
+  font-size: var(--spectrum-breadcrumb-text-size, var(--spectrum-global-dimension-font-size-200));
+  font-weight: var(--spectrum-breadcrumb-text-font-weight, 400);
 }
 .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink {
     cursor: default;
@@ -75,9 +75,9 @@
       color: var(--spectrum-breadcrumb-text-color-hover, var(--spectrum-global-color-gray-900));
     }
 .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink.focus-ring {
-      color: var(--spectrum-breadcrumb-text-color-key-focus, var(--spectrum-global-color-blue-600));
+      color: var(--spectrum-breadcrumb-text-color-key-focus, var(--spectrum-global-color-gray-900));
       outline: 0;
-      border-bottom: 2px solid var(--spectrum-breadcrumb-text-color-key-focus, var(--spectrum-global-color-blue-600));
+      border-bottom: 2px solid var(--spectrum-breadcrumb-text-color-key-focus, var(--spectrum-global-color-gray-900));
     }
 .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink:active {
       color: var(--spectrum-breadcrumb-text-color-down, var(--spectrum-global-color-gray-900));

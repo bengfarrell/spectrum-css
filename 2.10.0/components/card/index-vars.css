@@ -218,7 +218,7 @@
     height: var(--spectrum-card-quiet-small-body-header-height, var(--spectrum-global-dimension-size-150));
   }
 .spectrum-Card--small .spectrum-Card-title {
-    font-size: var(--spectrum-card-quiet-small-title-text-size, var(--spectrum-global-dimension-size-150));
+    font-size: var(--spectrum-card-quiet-small-title-text-size, var(--spectrum-global-dimension-font-size-100));
   }
 .spectrum-Card--gallery {
   min-width: 0;

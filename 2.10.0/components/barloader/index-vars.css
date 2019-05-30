@@ -20,6 +20,7 @@
   width: var(--spectrum-barloader-large-width, var(--spectrum-global-dimension-size-2400));
   height: var(--spectrum-barloader-large-height, var(--spectrum-global-dimension-size-75));
   border-radius: var(--spectrum-barloader-large-border-radius, var(--spectrum-global-dimension-size-40));
+  z-index: 1; /* to fix a weird webkit bug with rounded corners and masking */
 }
 .spectrum-BarLoader-fill {
   border: none;
@@ -46,14 +47,14 @@
   width: auto;
 }
 .spectrum-BarLoader--sideLabel .spectrum-BarLoader-label {
-    margin-right: 12px;
+    margin-right: var(--spectrum-barloader-large-label-gap-x, var(--spectrum-global-dimension-size-150));
     margin-bottom: 0;
   }
 .spectrum-BarLoader--sideLabel .spectrum-BarLoader-percentage {
     -ms-flex-order: 3;
         order: 3;
     text-align: right;
-    margin-left: 12px;
+    margin-left: var(--spectrum-barloader-large-label-gap-x, var(--spectrum-global-dimension-size-150));
     margin-bottom: 0;
   }
 /* topdoc
@@ -79,6 +80,28 @@
 /* topdoc
 {{ barloader/barloader-meter.yml }}
 */
+/* topdoc
+{{ barloader/barloader-large-indeterminate.yml }}
+*/
+/* topdoc
+{{ barloader/barloader-small-indeterminate.yml }}
+*/
+.spectrum-BarLoader--indeterminate .spectrum-BarLoader-fill {
+  width: var(--spectrum-barloader-large-indeterminate-fill-width, var(--spectrum-global-dimension-size-1700));
+  position: relative;
+  animation: indeterminate-loop var(--spectrum-barloader-large-indeterminate-duration, 1000ms) infinite;
+  animation-timing-function: var(--spectrum-barloader-large-indeterminate-animation-ease, (.45, 0, .40, 1));
+  left: calc(-1 * var(--spectrum-barloader-large-indeterminate-fill-width, var(--spectrum-global-dimension-size-1700)));
+  will-change: transform;
+}
+@keyframes indeterminate-loop {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(calc(var(--spectrum-barloader-large-width, var(--spectrum-global-dimension-size-2400)) + var(--spectrum-barloader-large-indeterminate-fill-width, var(--spectrum-global-dimension-size-1700))));
+  }
+}
 .spectrum-BarLoader .spectrum-BarLoader-fill {
     background: var(--spectrum-barloader-large-track-fill-color, var(--spectrum-global-color-blue-500));
   }

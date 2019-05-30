@@ -1,5 +1,5 @@
 .spectrum--large {
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 @keyframes spectrum-fill-mask-1 {
   0% {
     transform: rotate(90deg);
@@ -488,7 +488,7 @@
 }
 
 }
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-CircleLoader--indeterminate-fill-submask-2 {
   animation: 1s infinite linear spectrum-fill-mask-2;
 }

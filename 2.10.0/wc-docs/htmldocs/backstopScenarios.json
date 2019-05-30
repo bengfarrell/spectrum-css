@@ -1,0 +1,2294 @@
+[
+	{
+		"component": "accordion",
+		"label": "Accordion",
+		"url": "./dist/backstop_docs_test/accordion/accordion.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "actionmenu",
+		"label": "Action Menu",
+		"url": "./dist/backstop_docs_test/actionmenu/actionmenu.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "alert",
+		"label": "Alert - Closable",
+		"url": "./dist/backstop_docs_test/alert/alert-closeable.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "alert",
+		"label": "Alert - Error",
+		"url": "./dist/backstop_docs_test/alert/alert-error.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "alert",
+		"label": "Alert - Help",
+		"url": "./dist/backstop_docs_test/alert/alert-help.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "alert",
+		"label": "Alert - Info",
+		"url": "./dist/backstop_docs_test/alert/alert-info.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "alert",
+		"label": "Alert - Success",
+		"url": "./dist/backstop_docs_test/alert/alert-success.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "alert",
+		"label": "Alert - Warning",
+		"url": "./dist/backstop_docs_test/alert/alert-warning.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "assetlist",
+		"label": "Asset List",
+		"url": "./dist/backstop_docs_test/assetlist/assetlist.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "avatar",
+		"label": "Avatar",
+		"url": "./dist/backstop_docs_test/avatar/avatar-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "banner",
+		"label": "Banner - Corner Placement",
+		"url": "./dist/backstop_docs_test/banner/banner-corner.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "banner",
+		"label": "Banner - Error",
+		"url": "./dist/backstop_docs_test/banner/banner-error.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "banner",
+		"label": "Banner - Info",
+		"url": "./dist/backstop_docs_test/banner/banner-info.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "banner",
+		"label": "Banner - Warning",
+		"url": "./dist/backstop_docs_test/banner/banner-warning.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader - Indeterminate",
+		"url": "./dist/backstop_docs_test/barloader/barloader-large-indeterminate.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader - Over Background",
+		"url": "./dist/backstop_docs_test/barloader/barloader-large-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader",
+		"url": "./dist/backstop_docs_test/barloader/barloader-large.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader - Meter",
+		"url": "./dist/backstop_docs_test/barloader/barloader-meter.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader - Indeterminate Small",
+		"url": "./dist/backstop_docs_test/barloader/barloader-small-indeterminate.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader - Over Background Small",
+		"url": "./dist/backstop_docs_test/barloader/barloader-small-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "barloader",
+		"label": "Bar Loader - Small",
+		"url": "./dist/backstop_docs_test/barloader/barloader-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "buttongroup",
+		"label": "Button Group (vertical)",
+		"url": "./dist/backstop_docs_test/buttongroup/buttongroup-vertical.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "buttongroup",
+		"label": "Button Group",
+		"url": "./dist/backstop_docs_test/buttongroup/buttongroup.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "breadcrumb",
+		"label": "Breadcrumbs - Title",
+		"url": "./dist/backstop_docs_test/breadcrumb/breadcrumb-title.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "breadcrumb",
+		"label": "Breadcrumbs",
+		"url": "./dist/backstop_docs_test/breadcrumb/breadcrumb.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "calendar",
+		"label": "Calendar - Disabled",
+		"url": "./dist/backstop_docs_test/calendar/calendar-disabled.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "calendar",
+		"label": "Calendar - Focused",
+		"url": "./dist/backstop_docs_test/calendar/calendar-focused.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "calendar",
+		"label": "Calendar - Range Selection",
+		"url": "./dist/backstop_docs_test/calendar/calendar-range.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "calendar",
+		"label": "Calendar",
+		"url": "./dist/backstop_docs_test/calendar/calendar.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Action Button - Quiet",
+		"url": "./dist/backstop_docs_test/button/actionbutton-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Action Button",
+		"url": "./dist/backstop_docs_test/button/actionbutton.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - CTA",
+		"url": "./dist/backstop_docs_test/button/button-cta.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Over Background",
+		"url": "./dist/backstop_docs_test/button/button-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Primary",
+		"url": "./dist/backstop_docs_test/button/button-primary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Quiet Over Background",
+		"url": "./dist/backstop_docs_test/button/button-quiet-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Quiet Primary",
+		"url": "./dist/backstop_docs_test/button/button-quiet-primary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Quiet Secondary",
+		"url": "./dist/backstop_docs_test/button/button-quiet-secondary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Quiet Warning",
+		"url": "./dist/backstop_docs_test/button/button-quiet-warning.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Secondary",
+		"url": "./dist/backstop_docs_test/button/button-secondary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Button - Warning",
+		"url": "./dist/backstop_docs_test/button/button-warning.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Clear Button",
+		"url": "./dist/backstop_docs_test/button/clearbutton-medium.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Logic Button",
+		"url": "./dist/backstop_docs_test/button/logicbutton.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "button",
+		"label": "Tool",
+		"url": "./dist/backstop_docs_test/button/tool.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Asset preview",
+		"url": "./dist/backstop_docs_test/card/card-asset.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Gallery",
+		"url": "./dist/backstop_docs_test/card/card-gallery.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Quiet, File",
+		"url": "./dist/backstop_docs_test/card/card-quiet-file.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Quiet, Folder",
+		"url": "./dist/backstop_docs_test/card/card-quiet-folder.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Quiet, Large Image",
+		"url": "./dist/backstop_docs_test/card/card-quiet-large.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Quiet, Small Image",
+		"url": "./dist/backstop_docs_test/card/card-quiet-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card - Small",
+		"url": "./dist/backstop_docs_test/card/card-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "card",
+		"label": "Card",
+		"url": "./dist/backstop_docs_test/card/card.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "checkbox",
+		"label": "Checkbox - Quiet",
+		"url": "./dist/backstop_docs_test/checkbox/checkbox-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "checkbox",
+		"label": "Checkbox",
+		"url": "./dist/backstop_docs_test/checkbox/checkbox.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "coachmark",
+		"label": "Coach Mark",
+		"url": "./dist/backstop_docs_test/coachmark/coachmark.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "cyclebutton",
+		"label": "Cycle Button",
+		"url": "./dist/backstop_docs_test/cyclebutton/cyclebutton-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Indeterminate",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-indeterminate-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Indeterminate Large",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-indeterminate-large.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Indeterminate - Over Background",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-indeterminate-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Indeterminate Small",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-indeterminate-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Over Background - Large",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-large-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Large",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-large.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Over Background",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-medium-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-medium.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Over Background - Small",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-small-over-background.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "circleloader",
+		"label": "Circle Loader - Small",
+		"url": "./dist/backstop_docs_test/circleloader/circleloader-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "decoratedtextfield",
+		"label": "Text Field - Decorated",
+		"url": "./dist/backstop_docs_test/decoratedtextfield/decoratedtextfield.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "dialog",
+		"label": "Dialog",
+		"url": "./dist/backstop_docs_test/dialog/dialog.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "dropindicator",
+		"label": "Drop Indicator",
+		"url": "./dist/backstop_docs_test/dropindicator/dropindicator.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "dropdown",
+		"label": "Dropdown - Quiet",
+		"url": "./dist/backstop_docs_test/dropdown/dropdown-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "dropdown",
+		"label": "Dropdown",
+		"url": "./dist/backstop_docs_test/dropdown/dropdown.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "dropzone",
+		"label": "Dropzone",
+		"url": "./dist/backstop_docs_test/dropzone/dropzone.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldgroup",
+		"label": "Field Group",
+		"url": "./dist/backstop_docs_test/fieldgroup/fieldgroup-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldgroup",
+		"label": "Field Group - Labels Below",
+		"url": "./dist/backstop_docs_test/fieldgroup/fieldgroup-labelsbelow.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldgroup",
+		"label": "Field Group - Vertical",
+		"url": "./dist/backstop_docs_test/fieldgroup/fieldgroup-vertical.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldlabel",
+		"label": "Field Label - Left",
+		"url": "./dist/backstop_docs_test/fieldlabel/fieldlabel-left.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldlabel",
+		"label": "Field Label - Required",
+		"url": "./dist/backstop_docs_test/fieldlabel/fieldlabel-required.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldlabel",
+		"label": "Field Label - Right",
+		"url": "./dist/backstop_docs_test/fieldlabel/fieldlabel-right.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "fieldlabel",
+		"label": "Field Label",
+		"url": "./dist/backstop_docs_test/fieldlabel/fieldlabel.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "form",
+		"label": "Form",
+		"url": "./dist/backstop_docs_test/form/index.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "illustratedmessage",
+		"label": "IllustratedMessage - CTA",
+		"url": "./dist/backstop_docs_test/illustratedmessage/illustratedmessage-cta.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "illustratedmessage",
+		"label": "IllustratedMessage",
+		"url": "./dist/backstop_docs_test/illustratedmessage/illustratedmessage.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "inputgroup",
+		"label": "Combo Box - Quiet",
+		"url": "./dist/backstop_docs_test/inputgroup/combobox-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "inputgroup",
+		"label": "Combo Box",
+		"url": "./dist/backstop_docs_test/inputgroup/combobox.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "inputgroup",
+		"label": "Date Picker - Quiet",
+		"url": "./dist/backstop_docs_test/inputgroup/datepicker-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "inputgroup",
+		"label": "Date Picker - Range Quiet",
+		"url": "./dist/backstop_docs_test/inputgroup/datepicker-range-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "inputgroup",
+		"label": "Date Picker - Range",
+		"url": "./dist/backstop_docs_test/inputgroup/datepicker-range.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "inputgroup",
+		"label": "Date Picker",
+		"url": "./dist/backstop_docs_test/inputgroup/datepicker.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "label",
+		"label": "Label",
+		"url": "./dist/backstop_docs_test/label/label-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "label",
+		"label": "Label - Large",
+		"url": "./dist/backstop_docs_test/label/label-large.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "label",
+		"label": "Label - Small",
+		"url": "./dist/backstop_docs_test/label/label-small.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "label",
+		"label": "Label - Special",
+		"url": "./dist/backstop_docs_test/label/label-special.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "link",
+		"label": "Link",
+		"url": "./dist/backstop_docs_test/link/link.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "menu",
+		"label": "Menu",
+		"url": "./dist/backstop_docs_test/menu/menu-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "menu",
+		"label": "Menu Nested",
+		"url": "./dist/backstop_docs_test/menu/menu-nested.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "miller",
+		"label": "Miller Columns",
+		"url": "./dist/backstop_docs_test/miller/miller-column.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "page",
+		"label": "Page",
+		"url": "./dist/backstop_docs_test/page/page.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "popover",
+		"label": "Popover - Dialog style",
+		"url": "./dist/backstop_docs_test/popover/popover-dialog.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "popover",
+		"label": "Popover",
+		"url": "./dist/backstop_docs_test/popover/popover.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "quickaction",
+		"label": "Quick Actions",
+		"url": "./dist/backstop_docs_test/quickaction/quickactions.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "pagination",
+		"label": "Pagination - Button Style CTA",
+		"url": "./dist/backstop_docs_test/pagination/pagination-button-style-cta.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "pagination",
+		"label": "Pagination - Button Style Primary",
+		"url": "./dist/backstop_docs_test/pagination/pagination-button-style-primary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "pagination",
+		"label": "Pagination - Button Style Secondary",
+		"url": "./dist/backstop_docs_test/pagination/pagination-button-style-secondary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "pagination",
+		"label": "Pagination - Explicit",
+		"url": "./dist/backstop_docs_test/pagination/pagination-explicit.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "pagination",
+		"label": "Pagination - Page",
+		"url": "./dist/backstop_docs_test/pagination/pagination-listing.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "radio",
+		"label": "Radio - Disabled",
+		"url": "./dist/backstop_docs_test/radio/radio-disabled.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "radio",
+		"label": "Radio - Invalid",
+		"url": "./dist/backstop_docs_test/radio/radio-invalid.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "radio",
+		"label": "Radio - Quiet",
+		"url": "./dist/backstop_docs_test/radio/radio-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "radio",
+		"label": "Radio",
+		"url": "./dist/backstop_docs_test/radio/radio.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "rating",
+		"label": "Rating - Active",
+		"url": "./dist/backstop_docs_test/rating/rating-active.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "rating",
+		"label": "Rating - Disabled",
+		"url": "./dist/backstop_docs_test/rating/rating-disabled.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "rating",
+		"label": "Rating",
+		"url": "./dist/backstop_docs_test/rating/rating.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "rule",
+		"label": "Rule",
+		"url": "./dist/backstop_docs_test/rule/rule.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "search",
+		"label": "Search - Quiet",
+		"url": "./dist/backstop_docs_test/search/search-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "search",
+		"label": "Search",
+		"url": "./dist/backstop_docs_test/search/search.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "searchwithin",
+		"label": "Search Within",
+		"url": "./dist/backstop_docs_test/searchwithin/searchwithin.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "sidenav",
+		"label": "SideNav - Heading",
+		"url": "./dist/backstop_docs_test/sidenav/sidenav-heading.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "sidenav",
+		"label": "SideNav - Icon",
+		"url": "./dist/backstop_docs_test/sidenav/sidenav-icon.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "sidenav",
+		"label": "SideNav - Multilevel",
+		"url": "./dist/backstop_docs_test/sidenav/sidenav-multilevel.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "sidenav",
+		"label": "SideNav",
+		"url": "./dist/backstop_docs_test/sidenav/sidenav.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Dial - With label",
+		"url": "./dist/backstop_docs_test/slider/dial-label.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Dial",
+		"url": "./dist/backstop_docs_test/slider/dial.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Color",
+		"url": "./dist/backstop_docs_test/slider/slider-colored.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Filled-Offset",
+		"url": "./dist/backstop_docs_test/slider/slider-filled-offset.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Filled",
+		"url": "./dist/backstop_docs_test/slider/slider-filled.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - With Label",
+		"url": "./dist/backstop_docs_test/slider/slider-label.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Video Player",
+		"url": "./dist/backstop_docs_test/slider/slider-player.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Ramp",
+		"url": "./dist/backstop_docs_test/slider/slider-ramp.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Range",
+		"url": "./dist/backstop_docs_test/slider/slider-range.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Tick with Labels",
+		"url": "./dist/backstop_docs_test/slider/slider-tick-label.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider - Tick",
+		"url": "./dist/backstop_docs_test/slider/slider-tick.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "slider",
+		"label": "Slider",
+		"url": "./dist/backstop_docs_test/slider/slider.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitbutton",
+		"label": "SplitButton - CTA",
+		"url": "./dist/backstop_docs_test/splitbutton/splitbutton-cta.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitbutton",
+		"label": "SplitButton - Primary",
+		"url": "./dist/backstop_docs_test/splitbutton/splitbutton-primary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitbutton",
+		"label": "SplitButton - Secondary",
+		"url": "./dist/backstop_docs_test/splitbutton/splitbutton-secondary.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "statuslight",
+		"label": "Status Light - Label Colors",
+		"url": "./dist/backstop_docs_test/statuslight/statuslight-label.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "statuslight",
+		"label": "Status Light - Semantic",
+		"url": "./dist/backstop_docs_test/statuslight/statuslight-semantic.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Horizontal Collapsed Left",
+		"url": "./dist/backstop_docs_test/splitview/splitview-horizontal-collapsed-left.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Horizontal Collapsed Right",
+		"url": "./dist/backstop_docs_test/splitview/splitview-horizontal-collapsed-right.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Horizontally Resizable",
+		"url": "./dist/backstop_docs_test/splitview/splitview-horizontal-resizable.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Horizontal",
+		"url": "./dist/backstop_docs_test/splitview/splitview-horizontal.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Vertical Collapsed Bottom",
+		"url": "./dist/backstop_docs_test/splitview/splitview-vertical-collapsed-bottom.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Vertical Collapsed Top",
+		"url": "./dist/backstop_docs_test/splitview/splitview-vertical-collapsed-top.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "splitview",
+		"label": "SplitView - Vertically Resizable",
+		"url": "./dist/backstop_docs_test/splitview/splitview-vertical-resizable.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "stepper",
+		"label": "Stepper",
+		"url": "./dist/backstop_docs_test/stepper/stepper-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "stepper",
+		"label": "Stepper - Quiet",
+		"url": "./dist/backstop_docs_test/stepper/stepper-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "steplist",
+		"label": "Steplist",
+		"url": "./dist/backstop_docs_test/steplist/steplist-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "steplist",
+		"label": "Steplist - With Label",
+		"url": "./dist/backstop_docs_test/steplist/steplist-label.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "steplist",
+		"label": "Steplist - With Tooltip",
+		"url": "./dist/backstop_docs_test/steplist/steplist-tooltip.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Column Dividers",
+		"url": "./dist/backstop_docs_test/table/table-dividers.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Divs Quiet",
+		"url": "./dist/backstop_docs_test/table/table-divs-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Divs",
+		"url": "./dist/backstop_docs_test/table/table-divs.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Dropzone",
+		"url": "./dist/backstop_docs_test/table/table-dropzone.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Quiet Multi-Select",
+		"url": "./dist/backstop_docs_test/table/table-quiet-multiselect.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Quiet",
+		"url": "./dist/backstop_docs_test/table/table-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table - Multi-Select",
+		"url": "./dist/backstop_docs_test/table/table-standard-multiselect.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "table",
+		"label": "Table",
+		"url": "./dist/backstop_docs_test/table/table-standard.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs - Compact Vertical",
+		"url": "./dist/backstop_docs_test/tabs/tabs-compact-vertical.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs - Compact",
+		"url": "./dist/backstop_docs_test/tabs/tabs-compact.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs - Quiet Compact",
+		"url": "./dist/backstop_docs_test/tabs/tabs-quiet-compact.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs - Quiet",
+		"url": "./dist/backstop_docs_test/tabs/tabs-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs - Too many",
+		"url": "./dist/backstop_docs_test/tabs/tabs-toomany.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs - Vertical",
+		"url": "./dist/backstop_docs_test/tabs/tabs-vertical.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tabs",
+		"label": "Tabs",
+		"url": "./dist/backstop_docs_test/tabs/tabs.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tags",
+		"label": "Tags - Deletable",
+		"url": "./dist/backstop_docs_test/tags/tags-deletable.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tags",
+		"label": "Tags",
+		"url": "./dist/backstop_docs_test/tags/tags.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "textfield",
+		"label": "Text Area - Quiet",
+		"url": "./dist/backstop_docs_test/textfield/textarea-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "textfield",
+		"label": "Text Area",
+		"url": "./dist/backstop_docs_test/textfield/textarea.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "textfield",
+		"label": "Text Field - Quiet",
+		"url": "./dist/backstop_docs_test/textfield/textfield-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "textfield",
+		"label": "Text Field",
+		"url": "./dist/backstop_docs_test/textfield/textfield.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "toast",
+		"label": "Toast",
+		"url": "./dist/backstop_docs_test/toast/toast.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "toggle",
+		"label": "Switch - A/B toggle",
+		"url": "./dist/backstop_docs_test/toggle/toggle-abdefault.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "toggle",
+		"label": "Switch - On/Off",
+		"url": "./dist/backstop_docs_test/toggle/toggle-onoffdefault.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "toggle",
+		"label": "Switch - On/Off - Quiet",
+		"url": "./dist/backstop_docs_test/toggle/toggle-onoffquiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "tooltip",
+		"label": "Tooltip",
+		"url": "./dist/backstop_docs_test/tooltip/tooltip.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "treeview",
+		"label": "Tree View - Disabled",
+		"url": "./dist/backstop_docs_test/treeview/treeview-disabled.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "treeview",
+		"label": "Tree View - Flat",
+		"url": "./dist/backstop_docs_test/treeview/treeview-flat.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "treeview",
+		"label": "Tree View - Nested with icons",
+		"url": "./dist/backstop_docs_test/treeview/treeview-icons.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "treeview",
+		"label": "Tree View - Nested",
+		"url": "./dist/backstop_docs_test/treeview/treeview.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "well",
+		"label": "Well",
+		"url": "./dist/backstop_docs_test/well/well.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Article",
+		"url": "./dist/backstop_docs_test/typography/typography-article.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Body",
+		"url": "./dist/backstop_docs_test/typography/typography-body.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Code",
+		"url": "./dist/backstop_docs_test/typography/typography-code.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography",
+		"url": "./dist/backstop_docs_test/typography/typography-default.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography (Deprecated)",
+		"url": "./dist/backstop_docs_test/typography/typography-deprecated.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Display (Quiet)",
+		"url": "./dist/backstop_docs_test/typography/typography-display-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Display (Strong)",
+		"url": "./dist/backstop_docs_test/typography/typography-display-strong.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Display",
+		"url": "./dist/backstop_docs_test/typography/typography-display.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Han",
+		"url": "./dist/backstop_docs_test/typography/typography-han.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Heading (Quiet)",
+		"url": "./dist/backstop_docs_test/typography/typography-heading-quiet.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Heading (Strong)",
+		"url": "./dist/backstop_docs_test/typography/typography-heading-strong.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	},
+	{
+		"component": "typography",
+		"label": "Typography - Heading",
+		"url": "./dist/backstop_docs_test/typography/typography-heading.html",
+		"readySelector": ".wf-active",
+		"selectors": [
+			"#backstopSelector"
+		],
+		"selectorExpansion": false,
+		"misMatchThreshold": 0.1,
+		"requireSameDimensions": true
+	}
+]

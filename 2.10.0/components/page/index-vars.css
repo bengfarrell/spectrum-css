@@ -1,7 +1,7 @@
 /* topdoc
 {{ page/page.yml }}
 */
-& {
+.spectrum {
   background-color: var(--spectrum-alias-background-color-default, var(--spectrum-global-color-gray-100));
 
   /* Prevent tap highlights */

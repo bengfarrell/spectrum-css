@@ -1,0 +1,35 @@
+<p>
+    Constructable Spectrum is a collision of two awesome things: Adobe's Design System, Spectrum and a brand new CSS feature called "Constructable Stylesheets". This is not an
+    official Adobe project. I just work for Adobe, love to prototype my projects with Spectrum and Web Components, and just wished there was an easy way to use both together. The goal of
+    Constructable Spectrum is to prove just that. My one rule for creating this workflow was that I'm not allowed to change the original Spectrum CSS, nor the HTML example markup.
+    I'm excited to say that I didn't break either of those rules, and just modified the Spectrum build process to make a Web Component based documentation application that uses the same
+    documentation snippets and HTML that the normal Spectrum site uses. This is not a site to show you how to use Spectrum CSS. For that, please visit <a href="http://opensource.adobe.com/spectrum-css" class="spectrum-Link">http://opensource.adobe.com/spectrum-css</a>
+</p>
+
+<p>
+    Spectrum is an exceptionally good use case for Constructable Stylesheets. With a normal monolithic design system, we could make this work, but Spectrum has recently been built with UI components in mind.
+    Many underlying properties are CSS Vars, and major component pieces are delivered as discrete CSS files. With Web Components and Constructable Stylesheets, each component
+    can be responsible for their own style dependencies, without needing to load up the entire world, or even having to manage CSS dependencies separately on the main HTML page.
+</p>
+
+<h4>Web Components and the Shadow DOM</h4>
+<p>
+    Web Components have been picking up steam in 2019, and the Shadow DOM has proven an amazing feature to encapsulate a single component on a page. Outside styles can't creep in
+    and effect your component. The bottom line is that your Web Component is protected from the brittleness that has plagued the cascade of Cascading Style Sheets for as long as we've been styling.
+</p>
+
+<h4>Design Systems can't Cascade</h4>
+<p>
+    There's a problem though! When we say the Shadow DOM protects your component, we mean it. Design systems that should permeate your page can no longer reach in to style your
+    component. Web Component developers don't have great options. CSS Vars can pierce the shadow boundary, but these are just atomic style rules, when we really want complete an entire set of rules.
+    Until recently, Web Components just had to copy tons of style into each and every component. Chrome now allows us to use "Shadow Parts", but there's lots of setup to do both in the
+    design system and in the component to mark and allow parts to flow through components.
+</p>
+
+<h4>Enter Constructable Stylesheets</h4>
+<p>
+    Constructable Stylesheets were just launched in Chrome, and allows an array of style sheets to be adopted anywhere, including the Shadow DOM! Stylesheets can be constructed with
+    Javascript, loaded up, and adopted by the document as well as any/all Web Components that need the stylesheets. And they seem to work flawlessly!
+</p>
+
+<a href="#" id="about" class="spectrum-Link">Read the full technical explanation...</a>

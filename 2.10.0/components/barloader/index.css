@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.9.0 */
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
+/* generated from dna-version: 5.13.0 */
 /* topdoc
 {{ barloader/barloader-large.yml }}
 */
@@ -22,6 +22,7 @@
   width: 192px;
   height: 6px;
   border-radius: 3px;
+  z-index: 1; /* to fix a weird webkit bug with rounded corners and masking */
 }
 .spectrum-BarLoader-fill {
   border: none;
@@ -81,3 +82,25 @@
 /* topdoc
 {{ barloader/barloader-meter.yml }}
 */
+/* topdoc
+{{ barloader/barloader-large-indeterminate.yml }}
+*/
+/* topdoc
+{{ barloader/barloader-small-indeterminate.yml }}
+*/
+.spectrum-BarLoader--indeterminate .spectrum-BarLoader-fill {
+  width: 136px;
+  position: relative;
+  animation: indeterminate-loop 1000ms infinite;
+  animation-timing-function: (.45, 0, .40, 1);
+  left: -136px;
+  will-change: transform;
+}
+@keyframes indeterminate-loop {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(328px);
+  }
+}

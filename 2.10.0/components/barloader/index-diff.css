@@ -1,8 +1,16 @@
-/* generated from dna-version: 5.9.0 */
+.spectrum--large {
+@keyframes indeterminate-loop {
+  100% {
+    transform: translate(452px);
+  }
+}
+
+}
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-BarLoader {
   width: 240px;
 }
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-BarLoader-track {
   width: 240px;
   height: 8px;
@@ -20,10 +28,10 @@
 
 }
 .spectrum--large .spectrum-BarLoader--sideLabel .spectrum-BarLoader-label {
-    margin-right: 12px;
+    margin-right: 15px;
   }
 .spectrum--large .spectrum-BarLoader--sideLabel .spectrum-BarLoader-percentage {
-    margin-left: 12px;
+    margin-left: 15px;
   }
 .spectrum--large .spectrum-BarLoader--small {
   height: 5px;
@@ -36,3 +44,9 @@
     height: 5px;
     border-radius: 3px;
   }
+.spectrum--large .spectrum-BarLoader--indeterminate .spectrum-BarLoader-fill {
+  width: 212px;
+  animation: indeterminate-loop 1000ms infinite;
+  animation-timing-function: (.45, 0, .40, 1);
+  left: -212px;
+}

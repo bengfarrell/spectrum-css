@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.9.0 */
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum--large .spectrum-Rating {
 
   width: 150px;
@@ -9,12 +9,12 @@
 .spectrum--large .spectrum-Rating-icon {
   width: 30px;
   height: 22px;
-  padding: 8px 0;
+  padding: 9px 0;
 }
 .spectrum--large .spectrum-Rating-icon.is-currentValue:after {
       border-radius: 2px;
       height: 2px;
-      bottom: 1px;
+      bottom: 2px;
       left: 5px;
       right: 5px;
     }

@@ -1,5 +1,5 @@
-/* generated from dna-version: 5.9.0 */
-/* generated from dna-version: 5.9.0 */
+/* generated from dna-version: 5.13.0 */
+/* generated from dna-version: 5.13.0 */
 .spectrum-Breadcrumbs {
   display: inline-block;
   list-style-type: none;
@@ -32,7 +32,7 @@
   margin-right: 32px;
 
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .spectrum-Breadcrumbs-item .spectrum-Breadcrumbs-itemLink {
     cursor: default;
