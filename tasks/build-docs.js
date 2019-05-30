@@ -100,6 +100,7 @@ gulp.task('build-docs',
   gulp.series(
     'build-docs:inject-topdoc',
     'build-docs:topdoc',
+    'build-docs:copy-webcomponents-docs',
     gulp.parallel(
       'build-docs:copy-site-resources',
       'build-docs:copy-prism-resources',

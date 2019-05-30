@@ -49,7 +49,7 @@ gulp.task('gh-pages:copy-icons-index', function () {
 gulp.task('gh-pages:publish', function (cb) {
 
   // Move files
-  gulp.src('dist/**')
+  gulp.src(['dist/**', '!docs', '!docs/**', '!icons', '!icons/**', '!standalone', '!standalone/**'])
     .pipe(gulp.dest(package.version))
     .on('end', function () {
 
@@ -87,8 +87,8 @@ gulp.task('gh-pages',
     'gh-pages:prepare-docs',
     'gh-pages:prepare-icons',
     'gh-pages:checkout-gh-pages',
-    'gh-pages:copy-index',
-    'gh-pages:copy-icons-index',
+  /*  'gh-pages:copy-index',
+    'gh-pages:copy-icons-index',*/
     'gh-pages:publish',
     'gh-pages:checkout-master'
   )
