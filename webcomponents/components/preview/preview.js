@@ -1,5 +1,6 @@
 import Template from './template.js';
-import CSS from '../../constructable-spectrum.js';
+import CSS from '../../adopt-css.js';
+import Spectrum from '../../constructable-spectrum.js';
 import Icons from '../../icons.js';
 
 export default class Preview extends HTMLElement {
@@ -19,7 +20,9 @@ export default class Preview extends HTMLElement {
   attributeChangedCallback(name, oldval, newval) {
     this.dom.container.classList.remove('spectrum--' + oldval);
     this.dom.container.classList.add('spectrum--' + newval);
-    this.shadowRoot.adoptedStyleSheets = CSS.getComponentSheets(this.currentComponent).concat(CSS.getSheets('./css/docs.css'));
+
+    const styles = Spectrum.getComponents(this.currentComponent).concat('./components/preview/preview.css', './css/docs.css');
+    CSS.adopt(styles, this.shadowRoot);
   }
 
   constructor() {
@@ -31,14 +34,17 @@ export default class Preview extends HTMLElement {
   }
 
   set component(comp) {
-    this.currentComponent = comp;
 
     let uri;
+    let component = null;
     if (comp) {
       const file = comp.url.split('/')[comp.url.split('/').length-1];
+      component = comp.component;
+      this.currentComponent = component;
       this.dom.title.innerHTML = comp.label;
       uri = `htmldocs/${comp.component}/${file}`;
     } else {
+      this.currentComponent = null;
       this.dom.title.innerHTML = 'What is Constructable Spectrum?';
       uri = 'about.html';
     }
@@ -49,7 +55,8 @@ export default class Preview extends HTMLElement {
       })
       .then(html => {
         this.dom.content.innerHTML = html;
-        this.shadowRoot.adoptedStyleSheets = CSS.getComponentSheets(comp.component).concat(CSS.getSheets('./css/docs.css'));
+        const styles = Spectrum.getComponents(component).concat('./components/preview/preview.css', './css/docs.css');
+        CSS.adopt(styles, this.shadowRoot);
         Icons.populateSVG(this.shadowRoot);
       });
   }

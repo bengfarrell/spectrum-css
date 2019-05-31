@@ -85,14 +85,12 @@ export default {
     },
 
     /**
-     * get CSSStyleSheet array for a given component
+     * get url array for a given component
      * @param components
-     * @param callback
-     * @param error
      * @param config
      * @returns {*[]}
      */
-    getComponentSheets(components, callback, error, config) {
+    getComponents(components, config) {
         if (!config) { config = this.config; }
 
         if (!components) {
@@ -102,97 +100,34 @@ export default {
             components = [components];
         }
 
-        const core = this.getSheet(`${config.baseURI}/spectrum-core.css`);
-        const globalvars = this.getSheet(`${config.baseURI}/vars/spectrum-global.css`);
-        const mediumvars = this.getSheet(`${config.baseURI}/vars/spectrum-medium.css`);
-        const largevars = this.getSheet(`${config.baseURI}/vars/spectrum-large.css`);
+        const sheetRefs = [];
 
-        if (document.adoptedStyleSheets.indexOf(globalvars) === -1) {
-            document.adoptedStyleSheets = document.adoptedStyleSheets.concat(globalvars);
+        const core = `${config.baseURI}/spectrum-core.css`;
+        const globalvars = `${config.baseURI}/vars/spectrum-global.css`;
+        const mediumvars = `${config.baseURI}/vars/spectrum-medium.css`;
+        const largevars = `${config.baseURI}/vars/spectrum-large.css`;
+
+        sheetRefs.push( { url: globalvars, scope: document });
+        sheetRefs.push( { url: mediumvars, scope: document });
+        sheetRefs.push( { url: largevars, scope: document });
+
+        if (config.applyCoreToDocument) {
+            sheetRefs.push( { url: core, scope: document });
         }
 
-        if (document.adoptedStyleSheets.indexOf(mediumvars) === -1) {
-            document.adoptedStyleSheets = document.adoptedStyleSheets.concat(mediumvars);
-        }
+        sheetRefs.push( core );
+        sheetRefs.push( config.themeURI ? config.themeURI : `${config.baseURI}/spectrum-${config.theme}.css` );
 
-        if (document.adoptedStyleSheets.indexOf(largevars) === -1) {
-            document.adoptedStyleSheets = document.adoptedStyleSheets.concat(largevars);
-        }
-
-        if (config.applyCoreToDocument && document.adoptedStyleSheets.indexOf(core) === -1) {
-            document.adoptedStyleSheets = document.adoptedStyleSheets.concat(core);
-        }
-
-        // allow custom/configurable theme URI
-        const theme = config.themeURI ?
-        this.getSheet(config.themeURI) :
-        this.getSheet(`${config.baseURI}/spectrum-${config.theme}.css`);
-
-        const sheets = [core, theme];
         for (let c = 0; c < components.length; c++) {
             const componentvaruri = this.constructComponentLink(config.baseURI, components[c], true);
             const componenturi = this.constructComponentLink(config.baseURI, components[c]);
-            const compvarsheet = this.getSheet(componentvaruri, callback, error);
 
             // bounce global/root vars to document
-            if (document.adoptedStyleSheets.indexOf(compvarsheet) === -1) {
-                document.adoptedStyleSheets = document.adoptedStyleSheets.concat(compvarsheet);
-            }
-            sheets.push(this.getSheet(componenturi, callback, error));
-        }
-        return sheets;
-    },
+            sheetRefs.push( { url: componentvaruri, scope: document });
 
-    getSheets(urls, callback, error) {
-        if (!Array.isArray(urls)) {
-            urls = [urls];
+            // use actual component css on desired scope
+            sheetRefs.push(componenturi);
         }
-        const sheets = [];
-        for (let c = 0; c < urls.length; c++) {
-            sheets.push(this.getSheet(urls[c], callback, error));
-        }
-        return sheets;
-    },
-
-    /**
-     * Load or retrieve cached style sheet
-     * @param uri
-     * @param callback
-     * @param error
-     * @returns {CSSStyleSheet|any}
-     * @private
-     */
-    getSheet(uri, callback, error) {
-        if (!this._dict) {
-            this._dict = new Map();
-        }
-        if (!this._failed) {
-            this._failed = new Map();
-        }
-
-        if (this._dict.has(uri)) {
-            return this._dict.get(uri);
-        } else if (this._failed.has(uri)) {
-            error.apply(this, [this._failed.get(uri)]);
-            return this._dict.get(uri);
-        } else {
-            const sheet = new CSSStyleSheet();
-            sheet.replace(`@import url("${uri}")`)
-                .then(sheet => {
-                    if (callback) {
-                        callback.apply(this, [sheet]);
-                    }
-                })
-                .catch(err => {
-                    this._failed.set(uri, err);
-                    if (error) {
-                        error.apply(this, [err]);
-                    }
-                    return sheet;
-                });
-
-            this._dict.set(uri, sheet );
-            return sheet;
-        }
+        return sheetRefs;
     }
 }

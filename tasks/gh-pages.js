@@ -87,8 +87,8 @@ gulp.task('gh-pages',
     'gh-pages:prepare-docs',
     'gh-pages:prepare-icons',
     'gh-pages:checkout-gh-pages',
-  /*  'gh-pages:copy-index',
-    'gh-pages:copy-icons-index',*/
+    'gh-pages:copy-index',
+    'gh-pages:copy-icons-index',
     'gh-pages:publish',
     'gh-pages:checkout-master'
   )
