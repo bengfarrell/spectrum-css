@@ -1,13 +1,14 @@
 import Template from './template.js';
 import Navigation from '../navigation/navigation.js';
-import CSS from '../../constructable-spectrum.js';
+import CSS from '../../adopt-css.js';
+import Spectrum from '../../constructable-spectrum.js';
 import Icons from '../../icons.js';
 
 export default class App extends HTMLElement {
   constructor() {
     super();
-    CSS.config.baseURI = this.getAttribute('componentslocation');
-    CSS.config.theme = 'light';
+    Spectrum.config.baseURI = this.getAttribute('componentslocation');
+    Spectrum.config.theme = 'light';
 
     this.attachShadow({ mode: 'open'});
     fetch(this.getAttribute('manifest'))
@@ -22,12 +23,14 @@ export default class App extends HTMLElement {
     this.shadowRoot.innerHTML = Template.render();
     this.dom = Template.map(this.shadowRoot);
     this.dom.themeMenu.addEventListener('change', e => {
-      this.dom.header.classList.remove('spectrum--' + CSS.config.theme );
-      CSS.config.theme = e.currentTarget.value;
+      this.dom.header.classList.remove('spectrum--' + Spectrum.config.theme );
+      Spectrum.config.theme = e.currentTarget.value;
       this.dom.preview.theme = e.currentTarget.value;
       this.dom.nav.theme = e.currentTarget.value;
-      this.dom.header.classList.add('spectrum--' + CSS.config.theme );
-      this.shadowRoot.adoptedStyleSheets = CSS.getComponentSheets([CSS.DROPDOWN]).concat(CSS.getSheets('./css/docs.css'));
+      this.dom.header.classList.add('spectrum--' + Spectrum.config.theme );
+
+      const styles = Spectrum.getComponents([Spectrum.DROPDOWN]).concat('./css/docs.css', './components/app/app.css');
+      CSS.adopt(styles, this.shadowRoot);
     });
     Icons.populateSVG(this.shadowRoot);
 
@@ -40,7 +43,8 @@ export default class App extends HTMLElement {
       this.dom.preview.component = component;
     });
 
-    this.shadowRoot.adoptedStyleSheets = CSS.getComponentSheets([CSS.DROPDOWN]).concat(CSS.getSheets('./css/docs.css'));
+    const styles = Spectrum.getComponents([Spectrum.DROPDOWN]).concat('./css/docs.css', './components/app/app.css');
+    CSS.adopt(styles, this.shadowRoot);
   }
 }
 

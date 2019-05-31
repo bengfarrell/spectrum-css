@@ -1,7 +1,6 @@
 export default {
   render(items) {
-    return `${this.css()}
-            ${this.html(items)}`;
+    return `${this.html(items)}`;
   },
 
   map(scope) {
@@ -26,18 +25,5 @@ export default {
                  </li>`;
     });
     return render;
-  },
-
-  css() {
-    return `<style>
-                :host {
-                    height: 100%;
-                    overflow-y: scroll;
-                }
-                
-                nav {
-                    display: inline-block;
-                }
-            </style>`;
   }
 }

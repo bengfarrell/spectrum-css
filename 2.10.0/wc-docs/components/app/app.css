@@ -1,0 +1,20 @@
+:host {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+}
+
+#about {
+    margin-left: 50px;
+}
+
+.sdldocs-header {
+    height: 100px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--spectrum-global-color-static-blue-400);
+}
+section {
+    display: flex;
+    height: calc(100% - 70px);
+}

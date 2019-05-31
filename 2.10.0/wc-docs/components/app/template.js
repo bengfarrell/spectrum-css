@@ -5,8 +5,7 @@ import CSS from '../../constructable-spectrum.js';
 
 export default {
   render() {
-    return `${this.css()}
-            ${this.html()}`;
+    return `${this.html()}`;
   },
 
   map(scope) {
@@ -59,30 +58,5 @@ export default {
                 <spectrum-wc-nav theme="${CSS.config.theme}"></spectrum-wc-nav>
                 <spectrum-wc-preview theme="${CSS.config.theme}"></spectrum-wc-preview> 
             </section>`;
-  },
-
-  css() {
-    return `<style>
-                :host {
-                    display: inline-block;
-                    height: 100%;
-                    overflow: hidden;
-                }
-                
-                #about {
-                    margin-left: 50px;
-                }
-                
-                .sdldocs-header {
-                    height: 100px;
-                    border-bottom-width: 1px;
-                    border-bottom-style: solid;
-                    border-bottom-color: var(--spectrum-global-color-static-blue-400);
-                }
-                section {
-                    display: flex;
-                    height: calc(100% - 70px);
-                }
-            </style>`;
   }
 }

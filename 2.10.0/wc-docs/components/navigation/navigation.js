@@ -1,5 +1,6 @@
 import Template from './template.js';
-import CSS from '../../constructable-spectrum.js';
+import CSS from '../../adopt-css.js';
+import Spectrum from '../../constructable-spectrum.js';
 
 export default class Navigation extends HTMLElement {
 
@@ -25,7 +26,9 @@ export default class Navigation extends HTMLElement {
         this.dom.container.classList.remove('spectrum--' + oldval);
       }
       this.dom.container.classList.add('spectrum--' + newval);
-      this.shadowRoot.adoptedStyleSheets = CSS.getComponentSheets();
+
+      const styles = Spectrum.getComponents().concat('./components/navigation/navigation.css', './css/docs.css');
+      CSS.adopt(styles, this.shadowRoot);
     }
   }
 
