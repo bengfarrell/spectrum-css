@@ -1,5 +1,5 @@
 import Template from './template.js';
-import CSS from '../../adopt-css.js';
+import StyleShelter from '../../style-shelter.js';
 import Spectrum from '../../constructable-spectrum.js';
 import Icons from '../../icons.js';
 
@@ -22,7 +22,7 @@ export default class Preview extends HTMLElement {
     this.dom.container.classList.add('spectrum--' + newval);
 
     const styles = Spectrum.getComponents(this.currentComponent).concat('./components/preview/preview.css', './css/docs.css');
-    CSS.adopt(styles, this.shadowRoot);
+    StyleShelter.adopt(styles, this.shadowRoot);
   }
 
   constructor() {
@@ -56,7 +56,7 @@ export default class Preview extends HTMLElement {
       .then(html => {
         this.dom.content.innerHTML = html;
         const styles = Spectrum.getComponents(component).concat('./components/preview/preview.css', './css/docs.css');
-        CSS.adopt(styles, this.shadowRoot);
+        StyleShelter.adopt(styles, this.shadowRoot);
         Icons.populateSVG(this.shadowRoot);
       });
   }

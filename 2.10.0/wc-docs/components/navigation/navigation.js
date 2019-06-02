@@ -1,5 +1,5 @@
 import Template from './template.js';
-import CSS from '../../adopt-css.js';
+import StyleShelter from '../../style-shelter.js';
 import Spectrum from '../../constructable-spectrum.js';
 
 export default class Navigation extends HTMLElement {
@@ -28,7 +28,7 @@ export default class Navigation extends HTMLElement {
       this.dom.container.classList.add('spectrum--' + newval);
 
       const styles = Spectrum.getComponents().concat('./components/navigation/navigation.css', './css/docs.css');
-      CSS.adopt(styles, this.shadowRoot);
+      StyleShelter.adopt(styles, this.shadowRoot);
     }
   }
 
